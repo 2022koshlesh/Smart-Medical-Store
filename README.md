@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Smart-Medical-Store
+Smart Medical Store: An AI-powered platform for seamless medicine shopping. Get instant invoices, personalized health recommendations, and real-time assistance. With a user-friendly interface and secure data handling, it ensures convenience, accuracy, and trust for all your healthcare needs.
+>>>>>>> 184f78873b5ddb2e636538abb1e0d753eb04a73b
