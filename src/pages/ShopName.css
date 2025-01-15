@@ -1,0 +1,18 @@
+.company-tag {
+    font-family: Arial, sans-serif;
+    border-bottom: 2px solid #fefbfb;
+    border-width: 40px;
+    margin-bottom: 20px ;
+    
+  }
+  
+  .company-tag h4 {
+    color: #000000;
+  }
+  
+  .company-tag p {
+    color: #040101;
+    font-size: 14px;
+    margin: 0;
+  }
+  

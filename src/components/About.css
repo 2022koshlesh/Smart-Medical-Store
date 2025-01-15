@@ -1,0 +1,143 @@
+.about-container {
+    padding: 20px; /* Add some padding around the container */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Info Section */
+.info-section {
+    display: flex;
+    flex-direction: column; /* Stack columns on small screens */
+    margin: 20px 0;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Increase the size of the medal image */
+.medal {
+    max-width: 12rem; /* Increase size of the medal image */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Center the medal image with spacing above and below */
+}
+
+/* Text styles */
+.info-text {
+    font-size: 3em; /* Make this text larger */
+    font-weight: bold;
+    text-align: center; /* Center text */
+    margin: 10px 0;
+}
+
+.info-description {
+    text-align: center; /* Center description text */
+    font-size: 1.5em; /* Increase font size for better visibility */
+    margin: 10px 0; /* Add margin above and below */
+    color: gray; /* Set the color to gray for a faded effect */
+    opacity: 0.7; /* Optional: further reduce opacity for a grayed-out effect */
+}
+
+/* Responsive layout */
+@media (min-width: 768px) {
+    .info-section {
+        flex-direction: row; /* Side by side on larger screens */
+    }
+
+    .left-column, .right-column {
+        padding: 20px; /* Add more padding for larger screens */
+    }
+}
+
+.right-column {
+    display: flex;
+    align-items: center; /* Vertically center content in the right column */
+    justify-content: center; /* Center horizontally */
+}
+
+/* Info image styles */
+.info-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Optional: Add hover effect for images */
+.info-image:hover,
+.medal:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+/* Align left column */
+.left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center align items in the left column */
+}
+
+
+
+.testimonial-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #FFCCEA;
+    text-align: center;
+    overflow: hidden; /* Prevent overflow of content */
+  }
+  
+  .testimonial-header {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-card {
+    border: 2px solid #d5d6d8; /* Add border color */
+    border-radius: 8px;
+    padding: 20px; /* Space inside the card */
+    margin-top: 20px; /* Space between cards */
+    background-color: #FFF6E3;
+    /* Card background color */
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Transition for movement */
+    position: relative; /* Position for animation */
+    opacity: 0; /* Start hidden */
+    transform: translateX(100%); /* Start off-screen to the right */
+  }
+  
+  .testimonial-card.active {
+    opacity: 1; /* Show when active */
+    transform: translateX(0); /* Move to original position */
+  }
+  
+  .testimonial-image {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 10px; /* Space between image and text */
+  }
+  
+  .testimonial-text {
+    font-size: 18px;
+    font-style: italic;
+    margin: 10px 0;
+    word-wrap: break-word; /* Allow text to wrap */
+  }
+  
+  .testimonial-author {
+    font-weight: bold; 
+  }
+  

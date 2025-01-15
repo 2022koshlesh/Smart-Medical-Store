@@ -1,0 +1,31 @@
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #a34219; 
+}
+
+/* Link styles for each menu item */
+.sidebar a {
+  display: flex;
+  align-items: center; /* Vertically center align icons and text */
+  padding: 10px 15px;
+  text-decoration: none;
+  margin-bottom: 10px; /* Adds a gap between menu items */
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+/* Adding gap between icon and text */
+.sidebar a svg {
+  margin-right: 10px; /* Adds space between icon and text */
+}
+
+
+/* Optional: Add some padding to the container to space the items evenly */
+.sidebar a:last-child {
+  margin-bottom: 0; /* Remove bottom margin from the last menu item */
+}
