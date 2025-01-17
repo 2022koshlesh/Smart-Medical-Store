@@ -3,6 +3,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Getting Started with Create React App
+
+Download the npm packages on both the folder Backend and Frontend using command:
+
+### cd Backend
+    npm i 
+Then move back to original folder which acts as a frontend folder
+### cd ..
+    npm i
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -72,4 +82,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 =======
 # Smart-Medical-Store
 Smart Medical Store: An AI-powered platform for seamless medicine shopping. Get instant invoices, personalized health recommendations, and real-time assistance. With a user-friendly interface and secure data handling, it ensures convenience, accuracy, and trust for all your healthcare needs.
->>>>>>> 184f78873b5ddb2e636538abb1e0d753eb04a73b
+
