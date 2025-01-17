@@ -27,7 +27,7 @@
     animation: fadeInOut 3s infinite; /* Fade in and out for the paragraph */
 }
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
@@ -35,12 +35,12 @@
 @keyframes fadeInOut {
     0%, 100% { opacity: 0; }
     50% { opacity: 1; }
-}
+} */
 
 .cta-button {
     margin-top: 20px;
     padding: 12px 24px;
-    background-color: #fff;
+    background-color: #ffffff;
     color: #4facfe;
     border: none;
     border-radius: 5px;
@@ -111,7 +111,7 @@
     font-family: 'Roboto', sans-serif;
     width: 240px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.8); /* Transparent background for glassy effect */
+    background: rgba(247, 247, 247, 0.8); /* Transparent background for glassy effect */
     border-radius: 15px; /* Smooth rounded corners */
     position: relative; /* Necessary for positioning pseudo-elements */
     text-align: center;
@@ -122,28 +122,6 @@
     
 }
 
-/* Add rotating gradient border using pseudo-element */
-.product-card::before {
-    content: '';
-    position: absolute;
-    top: -3px;
-    left: -3px;
-    right: -3px;
-    bottom: -3px;
-    border-radius: 18px;
-    background: linear-gradient(45deg, #CDC1FF, transparent, #CDC1FF);
-    animation: rotateBorder 3s linear infinite; 
-    z-index: 0;
-}
-
-@keyframes rotateBorder {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
 
 
 /* Keep the card above the rotating border */
