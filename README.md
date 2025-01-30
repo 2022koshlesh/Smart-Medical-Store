@@ -3,7 +3,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
  
-# Getting Started with Create React App
+# Getting Started with Create React App 
 
 Download the npm packages on both the folder Backend and Frontend using command:
 
