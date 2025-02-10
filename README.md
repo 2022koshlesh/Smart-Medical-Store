@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Download the npm packages on both the folder Backend and Frontend using command:
 
-### cd Backend 
+### cd Backend  
 Then move back to original folder which acts as a frontend folder
 ### cd ..
     npm i
